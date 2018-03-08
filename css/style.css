@@ -1,0 +1,109 @@
+.navbar.navbar-inverse {
+	margin-bottom: 0px;
+	border: 0;
+	border-radius: 0px;
+}
+
+h2.navbar-brand {
+	margin: 0;
+}
+
+header {
+	display: block;
+}
+
+#smallbox {
+	cursor: pointer;
+}
+
+.carousel-inner {
+	width: 100%;
+	max-height: 500px;
+}
+
+.carousel-caption {
+	top: 40%;
+	transform: translateY(-60%);
+	bottom: initial;
+}
+
+.text-center {
+	min-height: 100px;
+}
+
+#motto {
+	line-height: 100px;
+	color: white;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	background: black;
+}
+
+#offering h4 {
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 10px;
+}
+
+.public,
+.corporate,
+.teambuilding,
+.online {
+	height: 200px;
+	border: 1px solid white;
+	opacity: 1;
+ 	display: block;
+}
+
+img.avatar {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.public {
+	background-color: #ff00ff;
+}
+
+.corporate {
+	background-color: #fff44f;
+}
+
+.teambuilding {
+	background-color: #66ff00;
+}
+
+.online {
+	background-color: #43C0F6;
+}
+
+
+
+/*medium screen*/
+
+@media only screen and (min-width: 451px) and (max-width: 768px) {
+
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 450px) {
+
+.public,
+.corporate,
+.teambuilding,
+.online {
+	line-height: 100px !important;
+}
+
+}
+
+
+/*About Page*/
+.rounded-circle {
+	border-radius: 50%;
+}
