@@ -10,6 +10,7 @@ h2.navbar-brand {
 
 header {
 	display: block;
+	width: 100%;
 }
 
 #smallbox {
@@ -74,14 +75,31 @@ img.avatar {
 }
 
 .teambuilding {
-	background-color: #66ff00;
+	background-color: #8a2be2;
 }
 
 .online {
 	background-color: #43C0F6;
 }
 
+.footer-social {
+	background: lightgrey;
+}
 
+#footer {
+	width: 100%;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.fa-github,
+.fa-twitter,
+.fa-facebook,
+.fa-google-plus {
+	color: black;
+	width: 30px;
+	height: 30px;
+}
 
 /*medium screen*/
 
@@ -100,10 +118,73 @@ img.avatar {
 	line-height: 100px !important;
 }
 
+#motto {
+	font-size: 40px;
+}
+
 }
 
 
 /*About Page*/
 .rounded-circle {
 	border-radius: 50%;
+}
+
+#about {
+	width: 100%;
+	background: #43C0F6;
+	margin-left: 0px;
+	margin-right: 0px !important;
+}
+
+#team {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-us,
+.our-team,
+.about-us + p {
+	text-align: center;
+}
+
+/*end of About*/
+
+#public {
+	background-color: #ff00ff;
+}
+
+#public h1,
+#corporate h1,
+#teambuilding h1, 
+#online h1 {
+	color: white;
+}
+
+#teambuilding {
+	margin-bottom: 0px;
+}
+
+#public-row,
+#corporate-row {
+	background: lightgrey;
+	background-size: cover;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#corporate {
+	background-color: #fff44f;
+}
+
+#teambuilding {
+	background-color: #8a2be2;
+}
+
+#online {
+	background-color: #43C0F6;
+}
+
+.footer-social {
+	background: lightgrey;
 }

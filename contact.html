@@ -7,6 +7,7 @@
 
 	<title>Capstone 1</title>
 
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
@@ -57,63 +58,35 @@
 		</div> <!-- end of navbar container -->
 	</nav> <!-- end of navbar -->
 
-    <!-- Page Content -->
-	<div class="container" id="about">
+	<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Contact Us</h3>
+    <h4>Request Quotation</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Company Name (optional)" type="text" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+  </form>
+</div>
 
-		<!-- Introduction Row -->
-		<h1 class="about-us">About Us</h1>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
-      		</div>
-      	</div>
-      	<!-- Team Members Row -->
-      	<div class="row">
-        	<div class="col-lg-12">
-          		<h2 class="our-team">Our Team</h2>
-        	</div>
-        	<div class="col-lg-4 col-sm-6 text-center mb-4" id="team">
-          		<img class="rounded-circle img-fluid d-block mx-auto" src="images/sherlock.png" alt="sherlock">
-          		<h3>Sherlock Holmes
-            	<small>CEO</small>
-          		</h3>
-          	</div>
-          	<div class="col-lg-4 col-sm-6 text-center mb-4" id="team">
-          		<img class="rounded-circle img-fluid d-block mx-auto" src="images/john.png" alt="john">
-          		<h3>John Watson
-            	<small>Training Manager</small>
-          		</h3>
-          	</div>
-          	<div class="col-lg-4 col-sm-6 text-center mb-4" id="team">
-          		<img class="rounded-circle img-fluid d-block mx-auto" src="images/mary.png" alt="mary">
-          		<h3>Mary Morstan
-            	<small>Training Supervisor</small>
-          		</h3>
-          	</div>
-          	<div class="col-lg-4 col-sm-6 text-center mb-4" id="team">
-          		<img class="rounded-circle img-fluid d-block mx-auto" src="images/irene.png" alt="irene">
-          		<h3>Irene Adler
-            	<small>Sr. Trainer</small>
-          		</h3>
-          	</div>
-          	<div class="col-lg-4 col-sm-6 text-center mb-4" id="team">
-          		<img class="rounded-circle img-fluid d-block mx-auto" src="images/mycroft.png" alt="mycroft">
-          		<h3>Mycroft Holmes
-            	<small>Finance Manager</small>
-          		</h3>
-          	</div>
-          	<div class="col-lg-4 col-sm-6 text-center mb-4" id="team">
-          		<img class="rounded-circle img-fluid d-block mx-auto" src="images/molly.png" alt="molly">
-          		<h3>Molly Hooper
-            	<small>HR Manager</small>
-          		</h3>
-          	</div>
-      	</div>
 
-    </div>
-    <!-- /.container -->
 
-    <div class="footer-social">
+	<div class="footer-social">
 		<div class="container" id="footer">
 			<ul class="list-inline">
 				<li class="list-inline-item social-github">
@@ -143,6 +116,7 @@
 		</div>
 	</div>
 
+	
 
 
 <!-- jquery Bootstrap plugins -->
